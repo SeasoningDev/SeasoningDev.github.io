@@ -4,7 +4,7 @@ title: Generating Invoices with FPDF in Python 2.x
 ---
 One of my web projects required me to generate an invoice after a customer purchased a product. I could not find any existing, lightweight solutions that fit my requirements. In addition, I was already using FPDF to generate another document for a different part of the website, so I decided to use this package to roll my own.
 
-I found a script that (kind of) did what I wanted. The only problem was, it was written for the PHP version of FPDF. Below is my port (with some small adaptations) of this script to Python. Here is [an example invoice](/2014/10/19/example_invoice.pdf).
+I found a script that (kind of) did what I wanted. The only problem was, it was written for the PHP version of FPDF. Below is my port (with some small adaptations) of this script to Python. Here is [an example invoice](https://github.com/SeasoningDev/SeasoningDev.github.io/raw/master/assets/docs/invoice_example.pdf).
 
 Credit to Xavier Nicolay for [the original script](http://www.fpdf.org/en/script/script20.php "Original invoice generating php script")
 
